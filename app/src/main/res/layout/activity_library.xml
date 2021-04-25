@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:accessibilityPaneTitle="Library"
+    android:layout_height="match_parent"
+    tools:context=".Library"
+    android:background="@color/black"
+    android:orientation="vertical"
+    android:paddingLeft="6dp">
+
+    <Button
+        android:id="@+id/button_playlist"
+        android:layout_width="393dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:text="@string/playlists" />
+
+    <Button
+        android:id="@+id/button_album"
+        android:layout_width="393dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:text="@string/albums" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/made_for_you"
+        android:textColor="#2d2d2d"
+        android:textStyle="bold"
+        android:layout_marginTop="15dp"/>
+
+    <LinearLayout
+        android:layout_width="400dp"
+        android:layout_height="100dp"
+        android:orientation="horizontal"
+        android:id="@+id/Mysoundtrack"
+        android:clickable="true">
+
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="100dp"
+            android:src="@drawable/mysoundtrack"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="My Music Taste"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:padding="15dp"/>
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="400dp"
+        android:layout_height="100dp"
+        android:orientation="horizontal"
+        android:id="@+id/Mylikes"
+        android:clickable="true">
+
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="100dp"
+            android:src="@drawable/like"
+            android:scaleType="centerCrop"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="My Likes"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:padding="15dp"/>
+
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="400dp"
+        android:layout_height="150dp"
+        android:padding="15dp"
+        android:id="@+id/EnglishSongs"
+        android:layout_marginTop="15dp"
+        android:src="@drawable/popularenglish"
+        android:scaleType="centerInside"
+        />
+
+    <ImageView
+        android:id="@+id/HindiSongs"
+        android:layout_width="400dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="15dp"
+        android:padding="15dp"
+        android:src="@drawable/popularhindi"
+        android:scaleType="centerCrop"/>
+
+</LinearLayout>

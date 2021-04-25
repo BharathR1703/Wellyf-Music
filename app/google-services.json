@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "959626740063",
+    "project_id": "wellyf-music",
+    "storage_bucket": "wellyf-music.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:959626740063:android:5b229917b13aa2235e76ea",
+        "android_client_info": {
+          "package_name": "com.example.wellyfmusic"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "959626740063-fl7kdm6pum85o9bodpsol20ckktu3utq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDq-7H8ATAX-OLapZfD9cfu6q8VDZahnCg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "959626740063-fl7kdm6pum85o9bodpsol20ckktu3utq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
